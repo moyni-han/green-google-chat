@@ -1,0 +1,20 @@
+div.sticky{
+    border-radius: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:  #ABB29C; 
+    padding: 20px;
+  } 
+
+
+  @font-face {
+    font-family:Manrope;
+    src: url(manropefont.ttf);
+  }
+  
+  body {
+    font-family: Manrope;
+  }
+
+  
