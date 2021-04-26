@@ -10,7 +10,7 @@ var divList = []
 
 //**********IMPORTANT
 //**********when running from localhost, change below to ws:// protocol - I doubt you are using SSL cert for local dev
-let socket = new WebSocket("ws://"  + location.host); //make the initial request to connect
+let socket = new WebSocket("wss://"  + location.host); //make the initial request to connect
 
 socket.onmessage = function(event) {
   console.log(event.data);
